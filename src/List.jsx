@@ -4,27 +4,6 @@
 
 
 
-function List({Items}) {
-    return (
-        <ul>
-            {Items.map((shoppingItem, shoppingIndex) =>(
-            <li key={shoppingIndex}>
-                <h3>{shoppingItem.item}</h3>
-                <span>{ shoppingItem.quantity}</span>
-
-            </li>
-           ))}
-        </ul>  
-
-        
-    )
-}
-export default List
-
-
-
-
-
 
 
 

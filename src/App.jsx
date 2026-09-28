@@ -1,15 +1,15 @@
-import { useState } from "react"
-import Form from "./Form"
-import List from "./List"
+import AppRoutes from "./routes/AppRoutes"
+
+
 function App() {
 
-    const [items , setItems] = useState([])
     return (
-       <>
-            <Form ListItems = { setItems} />
-            <List Items = {items} />
+        <>
+            <div>test</div>
+             <AppRoutes/>
         </>
-    )
+      
+   )
 }
 export default App
 
