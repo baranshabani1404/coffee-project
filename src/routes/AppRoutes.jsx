@@ -4,7 +4,7 @@ import Signup from "../pages/auth/signup";
 import Home from "../pages/home";
 
 function AppRoutes() {
-    console.log("true");
+   
     return (
         <Routes >
             <Route path="/" element={<Home/>}></Route>

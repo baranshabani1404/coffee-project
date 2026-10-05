@@ -10,7 +10,7 @@ function FormButton({
             type ={type}
             disabled ={disabled || loading}
         >
-          {loading ? "در حال ارسال" : "children"}
+          {loading ? "در حال ارسال" : children}
         </button>
     )
     

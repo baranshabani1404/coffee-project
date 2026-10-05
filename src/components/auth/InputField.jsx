@@ -10,7 +10,7 @@ function InputField({
     required = false
 }) {
     return (
-        <div className="inputField">
+        <div className="input-field">
             <label htmlFor={name}>{label}</label>
             <input
                 type={type}
@@ -26,6 +26,7 @@ function InputField({
                     <p className="input-error">{ error}</p>
                 )
             }
+            
         </div>
     )
 
